@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM alpine:latest
 
 RUN apk --no-cache add minidlna minidlna-doc bash
 RUN mkdir /videos /tvshows /music
